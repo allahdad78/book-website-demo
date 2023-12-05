@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: url();
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: black;
+    color: #fff;
+   border-style:  dashed solid double
+   
+  }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  
+
+  .logo {
+    font-size: 32px;
+  }
+  
+
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 13px;
+    
+  }
+  
+  .menu li:hover {
+    background-color:#29255B;;
+    border-radius: 12px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 24px;
+    right: 0px;
+    
+   
+  }
+  
+  /* DROPDOWN MENU */
+  .services {
+    position: relative; 
+    right: 0px;
+  }
+  
+  
+  
+  input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  @media (max-width: 500px)
+  
+   {
+   .menu {
+      display:none;
+      position: absolute;
+      background-color:#29255B;;
+      background:none ;
+      right: 0px;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+    }
+  
+    .menu li:hover {
+      display: inline-block;
+      background-color:#29255B;;
+      background: none;
+      transition: 0.3s ease;
+    }
+  
+    .menu li + li {
+      margin-top: 12px;
+    }
+  
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  .img img{
+    width: 100%;
+    height: 600px;
+    max-width: 500%;
+  }
+  .h2 h2{
+    position: absolute;
+    padding-top: 15%;
+    font-size: 3rem;
+    left: 10%;
+    color: #fff;
+  }
+  .h2 p{
+    position: absolute;
+    padding-top: 19%;
+    left: 10%;
+    color: #fff;
+    width: 650px;
+    justify-content: space-around;
+  }
+  .h2 img{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    border-radius: 80%;
+    top: 35%;
+    padding: 20px;
+    left: 60%;
+  }
+  .h2 button{
+    position: absolute;
+    top: 66%;
+    left: 10%;
+    width: 75px;
+    height: 30px;
+    color: #fff;
+    border: #fff solid 2px;
+    background: none;
+    border-radius: 12px;
+  }
+  .c1 p{
+    padding: 50px 50px;
+    width: 950px;
+    
+    flex-direction: column-reverse;
+  }
+  .c1 img{
+    position: absolute;
+    width: 265px;
+    height: 135px;
+    left: 920px;
+    top: 743px;
+    border-radius: 10%;
+    text-align: justify;
+  }
+  
+  .c2 p{
+    padding: 50px 50px;
+    width: 950px;
+  }
+  .c2 img{
+    position: absolute;
+    width: 265px;
+    height: 135px;
+    left: 920px;
+    top: 990px;
+    border-radius: 10%;
+    text-align: justify;
+  }
+  .c3 p{
+    padding: 50px 50px;
+    width: 950px;
+    flex-direction: row-reverse;
+  }
+  .c3 img{
+    position: absolute;
+    width: 265px;
+    height: 135px;
+    left: 920px;
+    top: 1230px;
+    border-radius: 10%;
+    text-align: justify;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background:none;
+    color: #000;
+    padding: 12px 20px;
+    border: black 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: hsl(97, 25%, 94%);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #000;
+    padding: 20px;
+  }
+  footer{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+  }
+  @media only screen and (max-width:500px){
+    .img img{
+        width: 80%;
+        height: 500px;
+    }
+    .h2 h2{
+        
+    position: absolute;
+    flex-direction: column;
+    padding-top: 5%;
+    font-size: 2rem;
+    width: 200px;
+    left: 0;
+    top: 24%;
+    color: #fff;
+
+    }
+    .h2 p{
+        position: absolute;
+        padding-top: 15%;
+        flex-direction: column;
+        left: 0%;
+        color: #fff;
+        width: 300px;
+        top: 32%;
+        justify-content: space-around;
+      }
+      
+  .h2 img{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    border-radius: 80%;
+    flex-direction: column;
+    top: 45%;
+    padding: 20px;
+    left: 20%;
+  }
+  
+  .h2 button{
+    position: absolute;
+    top: 49%;
+    left: 0%;
+    width: 75px;
+    height: 30px;
+    color: #fff;
+    border: #fff solid 2px;
+    background: none;
+    border-radius: 12px;
+  }
+  
+  .c1 p{
+    padding:0;
+    width: 300px;
+    text-align: justify;
+    
+    flex-direction: column;
+  }
+  .c1 img{
+    position: absolute;
+    width: 269px;
+    height: 135px;
+    left: 0px;
+    top: 743px;
+    border-radius: 10%;
+    text-align: justify;
+  }
+  
+  .c2 p{
+    padding:0;
+    width: 300px;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .c2 img{
+    position: absolute;
+    width: 265px;
+    height: 135px;
+    left: opx;
+    top: 0px;
+    border-radius: 10%;
+    text-align: justify;
+  }
+  
+  .c3 p{
+    padding:50px 50px;
+    width: 300px;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .c3 img{
+    position: absolute;
+    width: 265px;
+    height: 135px;
+    left: 0px;
+    top: 1230px;
+    border-radius: 10%;
+    text-align: justify;
+  }
+  
+  input[type=text], select, textarea {
+    width: 70%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+    }
+
+  
+  
