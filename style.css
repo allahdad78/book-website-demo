@@ -270,12 +270,12 @@
       }
       
   .h2 img{
-    width: 20%;
+    width: 25%;
     height: 10%;
     position: absolute;
     border-radius: 80%;
     flex-direction: column;
-    top: 45%;
+    top: 46%;
     padding: 20px;
     left: 20%;
   }
@@ -306,7 +306,7 @@
     width: 350px;
     height: 135px;
     left: 12px;
-    top: 98%;
+    top: 108%;
     border-radius: 10%;
     justify-content: center;
     text-align: justify;
@@ -326,14 +326,14 @@
     width: 350px;
     height: 135px;
     left: 12px;
-    top: 147%;
+    top: 161%;
     border-radius: 10%;
   }
   
   .c3 p{
     padding:0;
     width: 400px;
-    margin-bottom: 30%;
+    margin-bottom: 31%;
     flex-direction: column;
     letter-spacing:0px;
     padding: 10px 10px;
@@ -343,7 +343,7 @@
     width: 350px;
     height: 135px;
     left: 12px;
-    top: 198%;
+    top: 214%;
     border-radius: 10%;
   }
   
@@ -371,7 +371,7 @@
     cursor: pointer;
     position: absolute;
     left: 18px;
-    top: 285%;
+    top: 68%;
   }
   
   footer{
