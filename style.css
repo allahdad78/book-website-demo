@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
   }
   body{
       background-color: url();
@@ -31,7 +32,10 @@
   
 
   .logo {
-    font-size: 32px;
+    font-size: 3px;
+    width: 40px;
+    height: 20px;
+    border-radius: 50%;
   }
   
 
@@ -43,9 +47,9 @@
   }
   
   .menu li:hover {
-    background-color:#29255B;;
+    color: #000;
     border-radius: 12px;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
   }
   
   .menu li {
@@ -73,7 +77,8 @@
   }
   
  
-  @media only screen and (max-width:500px)
+
+  @media only screen and (max-width:800px)
   
    {
    .menu {
@@ -140,13 +145,19 @@
   .h2 button{
     position: absolute;
     top: 66%;
-    left: 10%;
+    left: 12%;
     width: 75px;
     height: 30px;
     color: #fff;
     border: #fff solid 2px;
     background: none;
     border-radius: 12px;
+  }
+  
+  .h2 button:hover {
+    background-color:#fff;;
+    background: none;
+    transition: 0.3s ease;
   }
   .c1 p{
     padding: 50px 50px;
@@ -228,9 +239,9 @@
     width: 100%;
     height: 40px;
   }
-  @media only screen and (max-width:500px){
+  @media only screen and (max-width:900px){
     .img img{
-        width: 80%;
+        width: 100%;
         height: 500px;
     }
     .h2 h2{
@@ -272,7 +283,7 @@
   .h2 button{
     position: absolute;
     top: 49%;
-    left: 0%;
+    left: 2%;
     width: 75px;
     height: 30px;
     color: #fff;
@@ -283,7 +294,7 @@
   
   .c1 p{
     padding:0;
-    width: 300px;
+    width: 400px;
     margin-bottom: 30%;
     flex-direction: column;
     letter-spacing:0px;
@@ -292,17 +303,18 @@
   }
   .c1 img{
     position: absolute;
-    width: 269px;
+    width: 350px;
     height: 135px;
     left: 12px;
-    top: 111%;
+    top: 98%;
     border-radius: 10%;
+    justify-content: center;
     text-align: justify;
   }
   
   .c2 p{
     padding:0;
-    width: 300px;
+    width: 400px;
     margin-bottom: 30%;
     flex-direction: column;
     letter-spacing:0px;
@@ -311,16 +323,16 @@
   }
   .c2 img{
     position: absolute;
-    width: 265px;
+    width: 350px;
     height: 135px;
     left: 12px;
-    top: 171%;
+    top: 147%;
     border-radius: 10%;
   }
   
   .c3 p{
     padding:0;
-    width: 300px;
+    width: 400px;
     margin-bottom: 30%;
     flex-direction: column;
     letter-spacing:0px;
@@ -328,10 +340,10 @@
   }
   .c3 img{
     position: absolute;
-    width: 265px;
+    width: 350px;
     height: 135px;
     left: 12px;
-    top: 231%;
+    top: 198%;
     border-radius: 10%;
   }
   
@@ -344,6 +356,10 @@
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    position: relative;
+    display: flex;
+    left: 12px;
+
   }
   
   input[type=submit] {
@@ -362,17 +378,20 @@
     padding-top: 20%;
     width: 60%;
     height: 40px;
-    left: 12px;
+    left: 45px;
     position: absolute;
   }
   
   .container {
     width: 70%;
-    height: 100%;
+    height: 50%;
     border-radius: 5px;
     background-color: #f2f2f2;
     color: #000;
     padding: 10px;
+    position: absolute;
+    left: 55px;
+    margin: auto;
   }
   
     }
