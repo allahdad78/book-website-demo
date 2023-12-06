@@ -239,7 +239,7 @@
     width: 100%;
     height: 40px;
   }
-  @media only screen and (max-width:685px){
+  @media only screen and (max-width:1150px){
     .img img{
         width: 100%;
         height: 500px;
